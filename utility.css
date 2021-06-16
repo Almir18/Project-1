@@ -1,0 +1,131 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    overflow: auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.grid {
+    display:  grid; /* активирует эту технологию */
+    grid-template-columns: auto auto; /* делять на колоны можно auto , или на процентах */
+    gap: 20px; /*  создает пространство между элементами */
+    justify-content: center; /* X cordinate */
+    align-items: center; /*  Y cordinate */
+    overflow: visible; /* на всякий если наш контент при изменении текста или размера все равно будет виден на экране  */
+}
+
+.card {
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgba(105, 105, 105, 0.466);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: white;
+    padding: 8px 25px;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.btn:hover{
+    transform: scale(0.98);
+}
+
+.btn-prime {
+    background-color: darkslategray;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+.btn-out:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.bg-dark {
+    background-color: darkslategray;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+    align-self: center;
+}
+
+/* Margin */
+
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+/* Padding */
+
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 1.5rem 0;
+}
+.py-3 {
+    padding: 2rem 0;
+}
+.py-4 {
+    padding: 3rem 0;
+}
+.py-5 {
+    padding: 4rem 0;
+}
+
+.grid-3 {
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+
+.grid-4 {
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+/* для about */
+.containers {
+    max-width: 1100px;
+    margin: auto auto ;
+    padding: 0 40px;
+    overflow: auto;
+}
+
+.kard .card {
+    grid-template-columns: auto auto;
+    
+}
